@@ -257,7 +257,7 @@ class RegisterView(ft.View):
             )
             
             if response:
-                self.snack_bar.content.value = f"{self.translation["msg_cadastrar_usuario"]}"
+                self.snack_bar.content.value = self.translation["msg_cadastrar_usuario"]
                 self.snack_bar.open = True
                 self.page.update()
                 
